@@ -1,0 +1,222 @@
+body { 
+ font-family: helvetica, sans-serif;
+ margin: 0px;
+}
+
+.ql-active a {
+	color: #0e00ff;
+	font-weight: 700;
+}
+
+#topbar a,input{
+	text-decoration: none;
+	color: #0f0f0f;
+	font-size: 18px;
+}
+
+#topbar {
+	border-bottom: 1px solid #95a5a6;
+}
+
+.element {
+	text-align: center;
+	height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#topbar a:hover {
+	color: #2980b9;
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.ql-active {
+	border-bottom: 4px solid #34495e;
+}
+
+.group {
+    display: inline-block;
+}
+
+.separator {
+    width: 40px;
+    display: inline-block;
+}
+
+.imagecontainer {
+	background-color:#ebebeb ;
+}
+
+.image {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.imagecaption {
+	margin-top: 12px;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	text-align: center;
+	color: rgb(104,104,104);
+	font-style: italic;
+}
+
+.imagecaption hr {
+	width: 30%;
+	color: rgba(255,255,255,0);
+	border-bottom: 0.5px solid rgb(104,104,104);
+}
+
+.lang {
+	height: 18px;
+	width: 24px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	font-weigth: 200;
+	color: #1f1f1f;
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+	font-weigth: 500;
+	color: #1f1f1f;
+	font-size: 32px;
+	margin-bottom: 0px;	
+    display: inline-block;
+}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 19px;
+	color: #1f1f1f;
+
+}
+
+
+.quote {
+	font-family: helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	margin-left: 16.66667%;
+	margin-right: 16.66667%;
+	padding: 5px;
+	color: #1f1f1f;
+	
+	border-left: 4px solid #34495e;
+
+}
+
+img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.video {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding-left: 16.66666%;
+    padding-right: 16.66666%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #2c3e50;    
+}
+
+/* veranderen bij klein-groter beeldscherm*/
+
+@media (min-device-width: 481px) {
+    .element {
+	   display: inline-block;
+    }
+    
+    .container {
+		margin-left: 16.666667%;
+		margin-right: 16.66667%;
+	}
+	
+	.element {
+		padding-top: 20px;
+		text-align: center;
+	}
+	
+	.first-element {
+		margin-left: 16.6667%;
+	}
+	
+	#footer div {
+    	display: inline-block;
+    }
+    #footer #right {
+    	float: right;
+    	margin: 0px;
+    }
+    
+    .profile {
+	    margin-right: 0px;
+	    margin-top: 0px;
+	    width: 16.666667%;
+	    display: inline-block;
+	    float: right;
+	    margin-left: 10px;
+    }
+
+}
+
+
+@media (max-device-width: 480px) {
+    .element {
+	   display: block;
+	   width: 100%;
+    }
+    
+    .container {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	.element {
+		padding-top: 5px;
+		text-align: center;
+		height: 25px;
+		margin-bottom: 0px; 
+	}
+	
+	.first-element {
+		margin-left: 0px;
+	}
+	
+	#footer div {
+    	display: block;
+    	text-align: center;
+    }
+    
+        #footer #right {
+    	margin-top: 10px;
+    }
+    
+    .profile {
+	    margin-right: 5%;
+	    margin-left: 5%;
+	    margin-top: 10px;
+	    
+	    width: 90%;
+	    display: block;
+	    margin-left: 10px;
+    }
+}
+
